@@ -1,0 +1,86 @@
+body{
+    background-color: #555454;
+}
+.baseImage{
+    width: 1341px;
+    height: 672px;
+    position: absolute;
+    top: 150px;
+    left: 300px;
+}
+
+.key{
+    border-radius: 9px;
+    width: 240px;
+    height: 280px;
+    position: absolute;
+    display: block;
+    /* border: .4rem solid black; */
+    /* margin: 1rem; */
+    font-size: 1.5rem;
+    /* padding: 1rem .5rem; */
+    transition: all .07s ease;
+    text-align: center;
+    color: white;
+    background: rgba(0,0,0,0.4);
+    text-shadow: 0 0 .5rem black;
+}
+
+.playing{
+    transform: scale(1.1);
+    border-color: #ffc600;
+    box-shadow: 0 0 1rem #ffc600;
+}
+
+.box1{
+    top: 197px;
+    left: 346px;
+    /* background-color: red; */
+}
+.box2{
+    top: 197px;
+    left: 595px;
+    /* background-color: rgb(251, 255, 0); */
+}
+.box3{
+    top: 197px;
+    left: 847px;
+    /* background-color: rgb(72, 255, 0); */
+}
+.box4{
+    top: 197px;
+    left: 1095px;
+    /* background-color: rgb(0, 174, 255); */
+}
+.box5{
+    top: 494px;
+    left: 346px;
+    /* background-color: red; */
+}
+.box6{
+    top: 494px;
+    left: 595px;
+    /* background-color: rgb(251, 255, 0); */
+}
+.box7{
+    top: 494px;
+    left: 847px;
+    /* background-color: rgb(72, 255, 0); */
+}
+.box8{
+    top: 494px;
+    left: 1095px;
+    /* background-color: rgb(0, 174, 255); */
+}
+.textContainer{
+    position: absolute;
+    top: 43%;
+    width: 100%;
+    text-align: center;
+}
+.mode{
+    height: 17px;
+    width: 34px;
+    background-color: red;
+    top: 629px;
+    left: 1423px;

@@ -1,0 +1,66 @@
+<html>
+    <head>
+        <title>Octopad</title>
+        <link rel="stylesheet" href="./drums.css"/>
+    </head>
+    <body>
+        <img src="./images/octopad.png" class="baseImage"/>
+        <div class="box1 key" data-key="103" onclick="playSound2(103)">
+            <div class="textContainer">
+                <kbd>CLAP</kbd>
+            </div>
+        </div>
+        <div class="box2 key" data-key="104" onclick="playSound2(104)">
+            <div class="textContainer">
+                <kbd>HIHAT</kbd>
+            </div>
+        </div>
+        <div class="box3 key" data-key="105" onclick="playSound2(105)">
+            <div class="textContainer">
+                <kbd>KICK</kbd>
+            </div>
+        </div>
+        <div class="box4 key" data-key="100" onclick="playSound2(100)">
+            <div class="textContainer">
+                <kbd>OPENHAT</kbd>
+            </div>
+        </div>
+        <div class="box5 key" data-key="101" onclick="playSound2(101)">
+            <div class="textContainer">
+                <kbd>RIDE</kbd>
+            </div>
+        </div>
+        <div class="box6 key" data-key="102" onclick="playSound2(102)">
+            <div class="textContainer">
+                <kbd>SNARE</kbd>
+            </div>
+        </div>
+        <div class="box7 key" data-key="97" onclick="playSound2(97)">
+            <div class="textContainer">
+                <kbd>TOM</kbd>
+            </div>
+        </div>
+        <div class="box8 key" data-key="98" onclick="playSound2(98)">
+            <div class="textContainer">
+                <kbd>TINK</kbd>
+            </div>
+        </div>
+        <div class="mode key" data-key="16" onclick="modeChange(16)">
+        </div> <!--Right Shift Key-->
+
+        <audio data-key="103" src="./sounds/clap.wav"></audio>
+        <audio data-key="104" src="./sounds/hihat.wav"></audio>
+        <audio data-key="105" src="./sounds/kick.wav"></audio>
+        <audio data-key="100" src="./sounds/openhat.wav"></audio>
+        <audio data-key="101" src="./sounds/ride.wav"></audio>
+        <audio data-key="102" src="./sounds/snare.wav"></audio>
+        <audio data-key="97" src="./sounds/tom.wav"></audio>
+        <audio data-key="98" src="./sounds/tink.wav"></audio>
+
+        <audio class="mChangeAudio" src="sounds/mode/bellpad.aif"></audio>
+        <audio class="mChangeAudio" src="sounds/mode/big-pretty-air-pad.aif"></audio>
+        <audio class="mChangeAudio" src="sounds/mode/big_piano_synthfx.aif"></audio>
+        <audio class="mChangeAudio" src="sounds/mode/harmonics-only.aif"></audio>
+    </body>
+    <script src="./drums.js"></script>
+</html>
